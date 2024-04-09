@@ -13,7 +13,7 @@
       in
       rec {
         packages.default = pkgs.buildNpmPackage {
-          name = "manusdlc-web-portfolio";
+          name = "manusdlc-portfolio";
 
           src = with pkgs.lib; cleanSourceWith {
             filter = path: _: !(builtins.elem (baseNameOf path) [ ".github" ".idea" "flake.nix" "flake.lock" "result" "Caddyfile" ]);
