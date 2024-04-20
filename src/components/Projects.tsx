@@ -1,27 +1,28 @@
 import cern from "../assets/cern.jpg"
 import cuckoo from "../assets/cuckoo.jpg"
-import filter from "../assets/filter.jpg"
 import robotito from "../assets/robotito.jpg"
+
+interface Project {
+    title: string,
+    img: string
+}
+
+const PROJECTS: Project[] = [
+    { title: "Probabilistic filter with metadata for billions of records", img: cuckoo },
+    { title: "Archiver for physics reserach at CERN", img: cern },
+    { title: "Autonomous robot for electrical substation inspection", img: robotito }
+]
 
 function Projects() {
     return (
         <section id="projects">
-            <div className="project_card">
-                <div>
-                    <img src={cuckoo} alt="killer bird" height="200" width="140" />
-                    <img src={filter} alt="filter" height="200" width="150" />
-                </div>
-                <p>Cuckoo Filter for billions of records with metadata</p>
-            </div>
-            <br/>
-            <div className="project_card">
-                <img src={cern} alt="particle smasher" height="260" width="290" />
-                <p> Archiver for physics research at CERN</p>
-            </div>
-            <br/>
-            <div className="project_card">
-                <img src={robotito} alt="robotito" height="260" width="290" />
-                <p> Autonomous robot for electrical substations inspection</p>
+            <div>
+                {PROJECTS.map((project, index) => (
+                    <div key={index} className="project">
+                        <img src={project.img} className="project-img" />
+                        <div className="project-title"> {project.title} </div>
+                    </div>
+                ))}
             </div>
         </section>
     )
