@@ -3,6 +3,29 @@ body {
   background-color: rgb(253, 249, 243);
 }
 
+.centered-div {
+  display: table;
+  margin-inline: auto;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-left: 5vw;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-left: 5vw;
+}
+
+.intro {
+  display: flex;
+  margin-top: 3vh;
+  margin-left: 5vw;
+  font-size: 1rem;
+}
+
 .project {
   display: flex;
   padding: 2em;
@@ -13,11 +36,17 @@ body {
 .project-img {
   object-fit: cover;
   margin-right: 5vw;
-  height: 20vh;
-  width: 20vw;
+  height: 15vh;
+  width: 15vw;
 }
 
 .project-title {
-  font-size: 2rem;
+  font-size: 1.1rem;
   font-weight: bold;
+}
+
+.project-subtitle {
+  font-size: 0.9rem;
+  margin-top: 1vh;
+  color: rgb(121, 119, 119)
 }
