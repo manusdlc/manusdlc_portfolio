@@ -13,6 +13,7 @@ body {
   font-size: 3rem;
   font-weight: bold;
   justify-content: center;
+  color: rgb(0, 0, 0)
 }
 
 .subtitle {
@@ -20,6 +21,7 @@ body {
   font-size: 1.5rem;
   margin-left: 2vw;
   justify-content: center;
+  color: rgb(100, 97, 97)
 }
 
 .intro {
@@ -57,10 +59,6 @@ body {
 }
 
 /* supress text decoration from Link tags */
-a:link {
+a {
   text-decoration: none
 }
-
-a:visited { 
-  text-decoration: none; 
-} 

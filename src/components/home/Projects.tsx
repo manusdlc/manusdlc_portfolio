@@ -46,7 +46,6 @@ function Projects() {
                                 </div>
                             </div>
                         </div>
-
                     </Link>
                 ))}
             </div>

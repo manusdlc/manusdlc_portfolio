@@ -1,8 +1,13 @@
+import { Link } from "react-router-dom"
+
+
 function Header() {
     return (
         <section id="intro">
-            <div className="title">manusdlc</div>
-            <div className="subtitle">Manuel Salomon de las Casas</div>
+            <Link to="/">
+                <div className="title">manusdlc</div>
+                <div className="subtitle">Manuel Salomon de las Casas</div>
+            </Link>
         </section >
     );
 }
