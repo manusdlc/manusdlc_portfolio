@@ -1,9 +1,9 @@
+import withHeader from "./Project";
+
 function Robotito() {
-    return (
-        <section id="robotito">
-            <p> Robotito </p>
-        </section>
-    );
+    return withHeader("robotito", () => (
+        <p> Robotito </p>
+    ));
 }
 
 export default Robotito;

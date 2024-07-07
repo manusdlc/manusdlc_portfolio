@@ -1,9 +1,9 @@
+import withHeader from "./Project";
+
 function Cern() {
-    return (
-        <section id="cern">
-            <p> C.E.R.N </p>
-        </section>
-    );
+    return withHeader("cern", () => (
+        <p>C.E.R.N</p>
+    ));
 }
 
 export default Cern;
