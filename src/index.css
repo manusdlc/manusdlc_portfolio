@@ -9,21 +9,24 @@ body {
 }
 
 .title {
+  display: flex;
   font-size: 3rem;
   font-weight: bold;
-  margin-left: 5vw;
+  justify-content: center;
 }
 
 .subtitle {
+  display: flex;
   font-size: 1.5rem;
-  margin-left: 5vw;
+  margin-left: 2vw;
+  justify-content: center;
 }
 
 .intro {
   display: flex;
-  margin-top: 3vh;
-  margin-left: 5vw;
-  font-size: 1rem;
+  margin-top: 2vh;
+  margin-left: 3vw;
+  font-size: 1.5rem;
 }
 
 .project {
