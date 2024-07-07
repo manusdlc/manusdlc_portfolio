@@ -6,9 +6,7 @@ function Home() {
     return (
         <section id="home">
             <Header />
-            <br />
             <Intro />
-            <br />
             <Projects />
         </section>
     );
