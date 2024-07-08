@@ -5,8 +5,8 @@ function Header() {
     return (
         <section id="intro">
             <Link to="/">
-                <div className="title">manusdlc</div>
-                <div className="subtitle">Manuel Salomon de las Casas</div>
+                <div className="nickname">manusdlc</div>
+                <div className="name">Manuel Salomon de las Casas</div>
             </Link>
         </section >
     );

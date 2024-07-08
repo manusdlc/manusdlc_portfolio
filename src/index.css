@@ -8,18 +8,19 @@ body {
   margin-inline: auto;
 }
 
-.title {
+.nickname {
   display: flex;
   font-size: 3rem;
   font-weight: bold;
-  margin-left: 2vw;
+  margin-top: 1.4vh;
+  margin-left: 1.4vw;
   color: rgb(0, 0, 0)
 }
 
-.subtitle {
+.name {
   display: flex;
   font-size: 1.5rem;
-  margin-left: 2vw;
+  margin-left: 1.4vw;
   color: rgb(100, 97, 97)
 }
 
