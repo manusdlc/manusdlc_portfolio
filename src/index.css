@@ -12,7 +12,7 @@ body {
   display: flex;
   font-size: 3rem;
   font-weight: bold;
-  justify-content: center;
+  margin-left: 2vw;
   color: rgb(0, 0, 0)
 }
 
@@ -20,15 +20,16 @@ body {
   display: flex;
   font-size: 1.5rem;
   margin-left: 2vw;
-  justify-content: center;
   color: rgb(100, 97, 97)
 }
 
 .intro {
   display: flex;
-  margin-top: 2vh;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
   margin-left: 3vw;
   font-size: 1.3rem;
+  justify-content: center;
 }
 
 .project {
