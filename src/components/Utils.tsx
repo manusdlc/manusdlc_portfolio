@@ -1,4 +1,5 @@
-import Header from '../common/Header'
+import Header from './common/Header'
+
 
 function withHeader(sectionId: string, component: JSX.Element): JSX.Element {
     return (

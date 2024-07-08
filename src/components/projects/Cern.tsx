@@ -1,9 +1,11 @@
-import withHeader from "./Project";
+const CERN: JSX.Element = (
+    <div>
+        <div className="title"> Research Archiver for C.E.R.N </div>
+    </div>
+);
 
-function Cern() {
-    return withHeader("cern", () => (
-        <p>C.E.R.N</p>
-    ));
+function Cern(): JSX.Element {
+    return CERN;
 }
 
 export default Cern;

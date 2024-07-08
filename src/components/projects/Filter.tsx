@@ -1,9 +1,11 @@
-import withHeader from "./Project";
+const FILTER: JSX.Element = (
+    <div>
+        <div className="title"> Probabilistic Filters with Metadata </div>
+    </div>
+)
 
 function Filter(): JSX.Element {
-    return withHeader("filter", () => (
-        <p> Filter </p>
-    ));
+    return FILTER;
 }
 
 export default Filter;

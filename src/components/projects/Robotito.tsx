@@ -1,9 +1,11 @@
-import withHeader from "./Project";
+const ROBOTITO: JSX.Element = (
+    <div>
+        <div className="title"> Robotito: my Unmanned Ground Vehicle</div>
+    </div>
+);
 
 function Robotito() {
-    return withHeader("robotito", () => (
-        <p> Robotito </p>
-    ));
+    return ROBOTITO;
 }
 
 export default Robotito;

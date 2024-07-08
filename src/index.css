@@ -60,6 +60,15 @@ body {
   color: rgb(121, 119, 119)
 }
 
+.title {
+  display: flex;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 5vh;
+  justify-content: center;
+  color: rgb(0, 0, 0)
+}
+
 /* supress text decoration from Link tags */
 a {
   text-decoration: none
